@@ -1,0 +1,256 @@
+
+/* .navbar{
+  border: 4px solid black;
+  width:100%;
+  height: 40px;
+  position: fixed;
+  background-color:black;
+}
+#navbar-brand{
+  border: 2px solid black;
+  background-color: black;
+  width: 60px;
+  height: 36px;
+}
+img {
+  height:50px;
+  width: 50px;
+  float: left;
+  margin-left: 3px;
+  margin-top: -7px;
+  position: relative;
+}
+#html{
+  border:2px black;
+  background-color:black;
+  width: 150px;
+  height: 42px;
+  float: left;
+  margin-top: -41.5px;
+  margin-left: 14px;
+  padding: auto;
+  
+}
+
+#css {
+  border:2px black;
+  background-color:black;
+  width: 150px;
+  height: 42px;
+  float: left;
+  margin-top: -41.5px;
+  margin-left: 1px;
+}
+#JS{
+  border:2px black;
+  background-color:black;
+  width: 150px;
+  height: 42px;
+  float: left;
+  margin-top: -41.5px;
+  margin-left: 1px;}
+#login{
+  height: 35px;
+  float: right;
+  position: relative;
+  margin-top: -38px;
+  padding-right: 15px;
+
+}
+
+#htmltxt{
+  color: #898989;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Verdana; 
+}
+#htmltxt:hover{
+  color: #f06a00;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Verdana;  
+}
+#htmltxt:active{
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Verdana;  
+} */
+ 
+
+/* ----------------------------------------------------sign up---------------------- */
+.form-label {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border: 2px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  border-color: #5cb85c;
+  outline: none;
+}
+
+.form-text {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.sign-up-form {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sign-up-form:hover {
+  background-color: #3d8b3d;
+}
+
+/* --------------------------------------------cards homepage------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #34495e;
+}
+
+.cards {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  
+  margin: 40px;
+  position:sticky;
+  max-width: 250px;
+  max-height: 350px;
+  box-shadow: 0 40px 60px -6px black;
+}
+
+.card-title {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #6184a8;
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-radius: 5%;
+}
+
+.card img {
+  width: 100%;
+  height: 98%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  border-radius: 5%;
+}
+
+.card-desc {
+  display: block;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 18px 8%;
+  background-color: white;
+  overflow-y: scroll;
+  transition: 0.8s ease;
+  border-radius: 15%;
+}
+
+.card:hover .card-desc {
+  opacity: 1;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+/* -----------------------------------------navbar buttons--------------------------- */
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgb(208, 54, 54) 0%, rgba(132,116,254,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+ }
+ 
+ .cssbuttons-io-button svg {
+  margin-right: 8px;
+ }
+ 
+ .cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+ }
+ 
+ .cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+ }
+
+
+
+
+ .cssbuttons-io-button1 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+ }
+ 
+ .cssbuttons-io-button1 svg {
+  margin-right: 6px;
+ }
+ 
+ .cssbuttons-io-button1:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+ }
+ 
+ .cssbuttons-io-button1:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+ }
